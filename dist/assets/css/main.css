@@ -1,0 +1,1908 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.owl-carousel .owl-nav {
+  display: none !important;
+  opacity: 0 !important;
+}
+
+@media (max-width: 700px) {
+  .owl-carousel .owl-nav {
+    display: none !important;
+  }
+}
+
+@media (min-width: 820px) {
+  .owl-carousel .owl-nav {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    -webkit-transform: translateY(-40%);
+            transform: translateY(-40%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+}
+
+.owl-carousel .owl-nav button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 0 !important;
+  color: #4628ba;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  border-radius: 50% !important;
+  width: 40px;
+  height: 40px;
+}
+
+.owl-carousel .owl-nav button:hover {
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+.owl-carousel .owl-nav button span {
+  font-size: 100px;
+  color: #4628ba;
+}
+
+.owl-carousel .owl-nav button i {
+  color: #4628ba;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 40px;
+  padding: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  padding: 10px 20px !important;
+  margin-right: auto;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  padding: 10px  20px !important;
+}
+
+.owl-item.active .contain .txt {
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+}
+
+.owl-item.active .contain .txt .hd {
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: slideInLeft;
+          animation-name: slideInLeft;
+}
+
+.owl-item.active .contain .txt .pr {
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: bounceInRight;
+          animation-name: bounceInRight;
+}
+
+.owl-item.active .dett {
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: backInDown;
+          animation-name: backInDown;
+}
+
+.owl-item.active .dett .deal {
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: backInDown;
+          animation-name: backInDown;
+}
+
+.owl-item.active .dett .inf {
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: backInDown;
+          animation-name: backInDown;
+}
+
+.owl-item.active .dett .inf2 {
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: bounceInLeft;
+          animation-name: bounceInLeft;
+}
+
+.owl-item.active .imgs .cont img {
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: bounceInRight;
+          animation-name: bounceInRight;
+}
+
+.owl-dots button span {
+  -webkit-transition: all ease-in-out .4s !important;
+  transition: all ease-in-out .4s !important;
+  height: 7px !important;
+  background: rgba(255, 255, 255, 0.3) !important;
+}
+
+.owl-dots button.active span {
+  background: white !important;
+  width: 30px !important;
+}
+
+.main.owl-carousel, .blog.owl-carousel {
+  position: relative;
+}
+
+.main.owl-carousel .owl-dots, .blog.owl-carousel .owl-dots {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -60px;
+  margin-top: 10px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main.owl-carousel .owl-dots button span, .blog.owl-carousel .owl-dots button span {
+  -webkit-transition: all linear .4s !important;
+  transition: all linear .4s !important;
+  height: 7px !important;
+  width: 7px !important;
+  border-radius: 5px;
+  background: rgba(70, 40, 186, 0.5) !important;
+}
+
+.main.owl-carousel .owl-dots button.active span, .blog.owl-carousel .owl-dots button.active span {
+  background: #4628ba !important;
+  width: 30px !important;
+  height: 7px !important;
+  display: block;
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.row {
+  max-width: 100vw !important;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif !important;
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+  background: white;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background: transparent;
+  -webkit-transition: all ease-in-out .5;
+  transition: all ease-in-out .5;
+  position: fixed;
+  right: 0;
+  left: 0;
+  padding: 10px 0px;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  z-index: 100;
+}
+
+header.opaque {
+  background: white;
+  -webkit-box-shadow: -3px 0px 13px 6px rgba(126, 153, 253, 0.5);
+          box-shadow: -3px 0px 13px 6px rgba(126, 153, 253, 0.5);
+}
+
+header .contains {
+  width: 100%;
+}
+
+header .contains .nav_bar {
+  height: 100%;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+header .contains .nav_bar .log-brand img {
+  width: 150px;
+}
+
+header .contains .nav_bar .nav_links {
+  background: white;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  left: 0;
+  -webkit-transform: translateX(-400%);
+          transform: translateX(-400%);
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+}
+
+header .contains .nav_bar .nav_links.open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+}
+
+header .contains .nav_bar .nav_links .nav_con {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 100vh;
+  background: white;
+}
+
+header .contains .nav_bar .nav_links .nav_con .nav_link {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  font-family: 'Quicksand', sans-serif !important;
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+
+header .contains .nav_bar .nav_links .nav_con .nav_link:hover {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+header .contains .nav_bar .nav_links .nav_con .nav_link.active {
+  color: #4628ba;
+}
+
+header .contains .nav_bar .nav_links .nav_con .nav_link_btn {
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: 500;
+  color: black;
+}
+
+header .contains .nav_bar .nav_links .nav_con .snp {
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: 1px solid rgba(70, 40, 186, 0.3);
+  background: rgba(70, 40, 186, 0.1);
+}
+
+header .contains .nav_bar .menu_btn {
+  font-size: 50px;
+  -webkit-transition: all ease-in .3s;
+  transition: all ease-in .3s;
+}
+
+main #home {
+  position: relative;
+}
+
+main #home .attch {
+  position: absolute;
+  width: 200px;
+  top: -50px;
+  left: -20px;
+  -webkit-transform: rotate(52deg);
+          transform: rotate(52deg);
+  opacity: 0.5;
+}
+
+main #home .contains {
+  padding-top: 50px;
+}
+
+main #home .contains .row .item-lft .wrap {
+  padding: 40px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+main #home .contains .row .item-lft .wrap .hdd {
+  margin-bottom: 30px;
+}
+
+main #home .contains .row .item-lft .wrap .hdd h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main #home .contains .row .item-lft .wrap .hdd p {
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+main #home .contains .row .item-lft .wrap form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+main #home .contains .row .item-lft .wrap form .case {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 7px;
+  width: 100%;
+  padding: 5px;
+}
+
+main #home .contains .row .item-lft .wrap form .case input {
+  padding: 15px 15px;
+  border: none;
+  background: transparent;
+  width: 60%;
+}
+
+main #home .contains .row .item-lft .wrap form .case input:focus {
+  outline: none;
+  border: none;
+}
+
+main #home .contains .row .item-lft .wrap form .case .subtn {
+  padding: 17px 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #4628ba;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: 'Quicksand', sans-serif !important;
+  margin-left: auto;
+  border-radius: 8px;
+}
+
+main #home .contains .row .item-lft .wrap .extra {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #home .contains .row .item-lft .wrap .extra p {
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+main #home .contains .row .item-lft .wrap .extra span {
+  margin: 0px 10px;
+  width: 2px;
+  height: 70%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+main #home .contains .row .item-rgt .wrap {
+  position: relative;
+}
+
+main #home .contains .row .item-rgt .wrap .imgt {
+  position: absolute;
+  bottom: -100px;
+  right: 40px;
+  width: 160px;
+}
+
+main #features {
+  background: #4628ba;
+  padding-bottom: 100px;
+}
+
+main #features .contains svg {
+  background: #ffffff;
+}
+
+main #features .contains .contents {
+  background: #4628ba;
+}
+
+main #features .contains .contents .wrap .row {
+  row-gap: 100px;
+}
+
+main #features .contains .contents .wrap .row .item {
+  padding: 0px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #features .contains .contents .wrap .row .item .case {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #features .contains .contents .wrap .row .item .case .bx {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+main #features .contains .contents .wrap .row .item .case .hh {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main #features .contains .contents .wrap .row .item .case .pp {
+  color: white;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+}
+
+main #extra {
+  padding: 100px 0px;
+}
+
+main #extra .contains .row {
+  max-width: 100vw !important;
+  overflow-x: hidden;
+  row-gap: 100px;
+}
+
+main #extra .contains .row .item-lft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #extra .contains .row .item-lft .case {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #extra .contains .row .item-lft .case .pp {
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0e2248;
+}
+
+main #extra .contains .row .item-lft .case .hh {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e2248;
+  margin-top: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main #extra .contains .row .item-lft .case .snbt {
+  margin-top: 50px;
+  padding: 15px 30px;
+  font-weight: 600;
+  border-radius: 25px;
+  border: 1px solid rgba(70, 40, 186, 0.3);
+  background: #4628ba;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 13px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+main #extra .contains .row .item-rgt .case {
+  position: relative;
+  min-height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #extra .contains .row .item-rgt .case::after {
+  background-image: url("../images/globe.webp");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+main #extra .contains .row .item-rgt .case .items {
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #extra .contains .row .item-rgt .case .items .item {
+  background: white;
+  -webkit-box-shadow: 4px 11px 49px rgba(126, 153, 253, 0.5);
+          box-shadow: 4px 11px 49px rgba(126, 153, 253, 0.5);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+main #extra .contains .row .item-rgt .case .items .item .bx {
+  font-size: 70px;
+}
+
+main #overview {
+  padding: 100px 0px;
+  background: #ecf6fa;
+}
+
+main #overview .contains .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 100px;
+}
+
+main #overview .contains .head h4 {
+  color: #4628ba;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+main #overview .contains .head h1 {
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+}
+
+main #overview .contains .head h1::after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 3px;
+  left: 50%;
+  top: 45px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100px;
+  background: #4628ba;
+  z-index: 1;
+}
+
+main #overview .contains .head h1::before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 5px;
+  top: 45px;
+  width: 8px;
+  left: 155px;
+  background: #ecf6fa;
+  z-index: 2;
+}
+
+main #overview .contains .main .row {
+  overflow-x: hidden;
+}
+
+main #overview .contains .main .row .item-lft {
+  background: #0e2258;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #overview .contains .main .row .item-lft .case {
+  padding: 40px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+main #overview .contains .main .row .item-lft .case .attch {
+  position: absolute;
+  top: 120px;
+  left: 14px;
+  font-weight: 1000;
+  font-size: 100px;
+  font-family: 'Quicksand', sans-serif;
+  color: #253768;
+  z-index: 1;
+  display: none;
+}
+
+main #overview .contains .main .row .item-lft .case .hh {
+  font-size: 35px;
+  font-weight: 1000;
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+  position: relative;
+  z-index: 2;
+}
+
+main #overview .contains .main .row .item-lft .case .pp {
+  color: white;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 50px;
+}
+
+main #overview .contains .main .row .item-lft .case .snbt {
+  padding: 15px 30px;
+  font-weight: 600;
+  border-radius: 25px;
+  border: 1px solid rgba(70, 40, 186, 0.3);
+  background: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 13px;
+  color: #0e2258;
+  font-family: 'Nunito', sans-serif;
+}
+
+main #overview .contains .main .row .item-rgt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+}
+
+main #overview .contains .main .row .item-rgt .case {
+  padding: 0;
+}
+
+main #faq {
+  padding: 100px 0px;
+}
+
+main #faq .contains .row .item-lft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 80px 0px;
+}
+
+main #faq .contains .row .item-lft .case {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+main #faq .contains .row .item-rgt {
+  padding-top: 80px;
+}
+
+main #faq .contains .row .item-rgt .case {
+  padding: 0px 20px;
+}
+
+main #faq .contains .row .item-rgt .case .accordion .accordion-item {
+  margin-bottom: 30px;
+}
+
+main #faq .contains .row .item-rgt .case .accordion .accordion-item .accordion-button {
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  font-weight: 900;
+  font-family: 'Quicksand', sans-serif !important;
+  border-radius: 0px 0px 10px 0px;
+}
+
+main #faq .contains .row .item-rgt .case .accordion .accordion-item .accordion-body {
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+main #pricing {
+  padding: 0px 0px 100px  0px;
+  position: relative;
+}
+
+main #pricing::before {
+  background-image: url("../images/20.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: '';
+  display: block;
+  width: 50%;
+  left: -160px;
+  opacity: 0.7;
+  top: 0;
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+}
+
+main #pricing .contains .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 100px;
+}
+
+main #pricing .contains .head h4 {
+  color: #4628ba;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+main #pricing .contains .head h1 {
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+  text-align: center;
+}
+
+main #pricing .contains .head h1::after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 3px;
+  left: 50%;
+  top: 85px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 120px;
+  background: #4628ba;
+  z-index: 1;
+}
+
+main #pricing .contains .head h1::before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 5px;
+  top: 85px;
+  width: 8px;
+  left: 175px;
+  background: white;
+  z-index: 2;
+}
+
+main #pricing .contains .row {
+  row-gap: 30px;
+}
+
+main #pricing .contains .row .item .case {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+main #pricing .contains .row .item .case.active {
+  -webkit-box-shadow: -2px 1px 12px rgba(126, 153, 253, 0.5);
+          box-shadow: -2px 1px 12px rgba(126, 153, 253, 0.5);
+}
+
+main #pricing .contains .row .item .case:hover {
+  -webkit-box-shadow: -2px 1px 12px rgba(126, 153, 253, 0.5);
+          box-shadow: -2px 1px 12px rgba(126, 153, 253, 0.5);
+}
+
+main #pricing .contains .row .item .case .he-ad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 30px 0px;
+  margin-bottom: 30px;
+}
+
+main #pricing .contains .row .item .case .he-ad .tittle {
+  font-weight: 800;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+}
+
+main #pricing .contains .row .item .case .he-ad .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #pricing .contains .row .item .case .he-ad .price span {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  justify-self: flex-start;
+}
+
+main #pricing .contains .row .item .case .he-ad .price .amt {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 40px;
+  padding: 0;
+  margin: 5px 0px;
+}
+
+main #pricing .contains .row .item .case .he-ad .price .tm {
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  font-weight: 600;
+  margin-left: 5px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  justify-self: flex-end;
+}
+
+main #pricing .contains .row .item .case .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #pricing .contains .row .item .case .items .c1 {
+  background: #f9f9f9;
+}
+
+main #pricing .contains .row .item .case .items .it-em {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+main #pricing .contains .row .item .case .items .it-em .bxs-x-circle {
+  color: rgba(255, 0, 0, 0.4);
+}
+
+main #pricing .contains .row .item .case .items .it-em .bxs-check-circle {
+  color: rgba(0, 128, 0, 0.7);
+}
+
+main #pricing .contains .row .item .case .items .it-em .stry {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+}
+
+main #pricing .contains .row .item .case .snbt {
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  display: inline-block;
+  margin-bottom: 40px;
+  background: -webkit-gradient(linear, left top, right top, from(#000f2a), to(#02276d));
+  background: linear-gradient(90deg, #000f2a, #02276d);
+  color: white;
+  margin-top: 30px;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  -webkit-transition: all ease-in-out .4s;
+  transition: all ease-in-out .4s;
+}
+
+main #pricing .contains .row .item .case .snbt:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#02276d), to(#000f2a));
+  background: linear-gradient(90deg, #02276d, #000f2a);
+}
+
+main #review {
+  padding: 100px 0px;
+}
+
+main #review .contains .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 100px;
+}
+
+main #review .contains .head h4 {
+  color: #4628ba;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+main #review .contains .head h1 {
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+  text-align: center;
+}
+
+main #review .contains .head h1::after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 3px;
+  left: 50%;
+  top: 45px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 120px;
+  background: #4628ba;
+  z-index: 1;
+}
+
+main #review .contains .head h1::before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 5px;
+  top: 45px;
+  width: 8px;
+  left: 175px;
+  background: white;
+  z-index: 2;
+}
+
+main #review .contains .review .item .case {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #review .contains .review .item .case .tp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+main #review .contains .review .item .case .tp .bu {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+main #review .contains .review .item .case .tp .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #review .contains .review .item .case .tp .stars .bx {
+  color: #ffda07;
+  margin-right: 5px;
+}
+
+main #review .contains .review .item .case .bt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #review .contains .review .item .case .bt .stry {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 15px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  justify-self: flex-start;
+  margin-bottom: 2px;
+}
+
+main #review .contains .review .item .case .bt .imgbx {
+  margin-top: 20px;
+  background: white;
+  -webkit-box-shadow: -1px 3px 16px 1px rgba(102, 102, 102, 0.5);
+          box-shadow: -1px 3px 16px 1px rgba(102, 102, 102, 0.5);
+  border-radius: 50%;
+  padding: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+main #review .contains .review .item .case .bt .imgbx img {
+  width: 130px;
+  border-radius: 50%;
+}
+
+main #review .contains .review .item .case .bt .imgbx .bx {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #0e2248;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+main #review .contains .review .item .case .bt .det {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+main #review .contains .review .item .case .bt .det .hh {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+main #review .contains .review .item .case .bt .det .hp {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 2px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+main #blog {
+  background: #ecf6fa;
+  padding: 100px 0px;
+}
+
+main #blog .contains .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 100px;
+}
+
+main #blog .contains .head h4 {
+  color: #4628ba;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+main #blog .contains .head h1 {
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+  text-align: center;
+}
+
+main #blog .contains .head h1::after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 3px;
+  left: 50%;
+  top: 85px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 120px;
+  background: #4628ba;
+  z-index: 1;
+}
+
+main #blog .contains .head h1::before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 5px;
+  top: 85px;
+  width: 8px;
+  left: 175px;
+  background: white;
+  z-index: 2;
+}
+
+main #blog .contains .main .blog .item {
+  padding: 10px 10px;
+}
+
+main #blog .contains .main .blog .item .case {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid 2px rgba(115, 137, 143, 0.1);
+  padding: 40px 20px;
+}
+
+main #blog .contains .main .blog .item .case .stm {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: #4628ba;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  font-size: 13px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+main #blog .contains .main .blog .item .case .h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 1000;
+  font-size: 22px;
+  color: #0e2258;
+}
+
+main #blog .contains .main .blog .item .case .pps {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #666666;
+}
+
+main #blog .contains .main .blog .item .case .cs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #blog .contains .main .blog .item .case .cs img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+main #blog .contains .main .blog .item .case .cs p {
+  margin: 0px 0px 0px 10px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: black;
+  text-transform: uppercase;
+}
+
+main #blog .contains .main .blog .item .case .cs p span {
+  color: #666666;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+footer {
+  padding-top: 150px;
+  background: #0e2258;
+  position: relative;
+}
+
+footer::before {
+  inset: 0;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/42.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  position: absolute;
+  opacity: .4;
+}
+
+footer .contains {
+  position: relative;
+  z-index: 2;
+}
+
+footer .contains .row {
+  row-gap: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+}
+
+footer .contains .row .item-in .case .hd {
+  margin-bottom: 30px;
+}
+
+footer .contains .row .item-in .case .hd h1 {
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+footer .contains .row .item-in .case .stry {
+  font-weight: 600;
+  color: #eaeaea;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 30px;
+}
+
+footer .contains .row .item-in .case .soc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+footer .contains .row .item-in .case .soc .bx {
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+footer .contains .row .item-in .row {
+  border-bottom: unset;
+}
+
+footer .contains .row .item-in .row .nitm .case .lnks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .contains .row .item-in .row .nitm .case .lnks .lnk {
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+}
+
+footer .contains .row .item-in .row .ntm .case .lnks span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+}
+
+footer .contains .row .item-in .row .ntm .case .lnks span .p1 {
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 5px;
+}
+
+footer .contains .row .item-in .row .ntm .case .lnks span .p2 {
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer .contains .extr .row {
+  row-gap: 30px;
+  padding-bottom: 20px;
+  border-bottom: unset;
+  margin-bottom: unset;
+}
+
+footer .contains .extr .row .ct {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .contains .extr .row .it-m {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 10px;
+}
+
+footer .contains .extr .row .it-m .case {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .contains .extr .row .it-m .case p {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+  margin: 0;
+}
+
+footer .contains .extr .row .it-m .case img {
+  width: 100px;
+}
+
+footer .contains .extr .row .it-m .case form {
+  width: 100%;
+}
+
+footer .contains .extr .row .it-m .case form .case {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: solid 1px rgba(102, 102, 102, 0.5);
+}
+
+footer .contains .extr .row .it-m .case form .case input {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  color: white;
+  width: 90%;
+}
+
+footer .contains .extr .row .it-m .case form .case input:focus {
+  outline: 0;
+  border: none;
+}
+
+footer .contains .extr .row .it-m .case form .case .btns {
+  background: transparent;
+  border-left: 1px solid rgba(102, 102, 102, 0.3);
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 12px;
+}
+
+footer .contains .extr .row .it-m .case form .case .btns button {
+  background: white;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 750px) {
+  header .contains .nav_bar {
+    background: transparent;
+  }
+  header .contains .nav_bar .menu_btn {
+    display: none;
+    opacity: 0;
+  }
+  header .contains .nav_bar .nav_links {
+    position: relative;
+    top: unset;
+    opacity: 1;
+    -webkit-transform: unset;
+            transform: unset;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background: transparent;
+    width: 100%;
+  }
+  header .contains .nav_bar .nav_links .nav_con {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 90%;
+    height: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: unset;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 40px;
+    background: transparent;
+  }
+  header .contains .nav_bar .nav_links .nav_con .nav_link {
+    margin-top: unset;
+    margin-right: 30px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-bottom: unset;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: transparent;
+  }
+  header .contains .nav_bar .nav_links .nav_con .btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: auto;
+  }
+  header .contains .nav_bar .nav_links .nav_con .btns .nav_link_btn {
+    margin-top: unset;
+    font-size: 15px;
+  }
+  header .contains .nav_bar .nav_links .nav_con .btns .snp {
+    margin-left: 30px;
+  }
+  main #overview .contains .main .row {
+    position: relative;
+    overflow-y: hidden;
+  }
+  main #overview .contains .main .row .item-lft {
+    background: transparent;
+  }
+  main #overview .contains .main .row .item-lft .case .attch {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #overview .contains .main .row .item-rgt {
+    padding: 40px 0px;
+  }
+  main #overview .contains .main .row .item-rgt .case {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main #overview .contains .main .row .item-rgt .case::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #0e2248;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    z-index: -1;
+    border-radius: 8px;
+  }
+  main #overview .contains .main .row .item-rgt .case img {
+    border-radius: 8px;
+  }
+  main #home {
+    padding-top: 50px;
+  }
+}
+
+@-webkit-keyframes myglobe {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes myglobe {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=main.css.map */
